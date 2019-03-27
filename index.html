@@ -1,160 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Brian's Portfolio</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" />
-  <!-- Bootstrap core CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
-  <link href="style.css" rel="stylesheet" />
-  <title>Brian's Portfolio</title>
-</head>
-
-<body>
-  <div style="background:transparent" class="jumbotron jumbotron-fluid">
-    <div class="container text-center">
-      <h1 class="display-4">Brian's Portfolio</h1>
-      <p class="lead">All of my relevant experiences and projects</p>
-      <a class="btn btn-light" href="#main" role="button">My Work</a>
+  <body>
+    <div style="background:transparent" class="jumbotron jumbotron-fluid">
+      <div class="container text-center">
+        <h1 class="display-4">Brian's Portfolio</h1>
+        <p class="lead">All of my relevant experiences and projects</p>
+        <a class="btn btn-light" href="#main" role="button">My Work</a>
+      </div>
     </div>
-  </div>
-  <div id="main" class="container">
-    <h2>Web Development Work</h2>
-    <div class="container row mt-3 mb-3">
-      <div class="card-deck">
-        <div class="card col-xl-6 col-lg-12 col-md-12 col-sm-12">
+    <div id="main" class="container">
+      <h2>Web Development Work</h2>
+      <div class="container row mt-3 mb-3">
+        <div class="card-deck">
+          <div class="card col-sm-12 col-xl-12">
+            <div class="card-body">
+              <h5 class="card-title">
+                <a
+                  href="https://info340a-wi19.github.io/project-thebriando/#"
+                  class="card-link"
+                  >Playlister</a
+                >
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                Spotify music recommendations and analysis
+              </h6>
+              <ul class="card-text">
+                <li>
+                  Created website to get Spotify music recommendations based on
+                  user’s selected artist, genre, or playlist
+                </li>
+                <li>
+                  Fetched data from Spotify Web API to generate artist and track
+                  recommendations based on the user’s input
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-xl-6 col-lg-12 col-md-12 col-sm-12">
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="http://www.optimumappliance.net/" class="card-link"
+                  >Optimum Appliance</a
+                >
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                A website for a client's appliance repair business
+              </h6>
+              <ul class="card-text">
+                <li>
+                  Designed, wrote copy, and coded website for a local appliance
+                  repair shop and grew site to over 15k pageviews
+                </li>
+                <li>
+                  Integrated appointments system and contact page for customer
+                  inquiries
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card col-12 mt-3">
           <div class="card-body">
             <h5 class="card-title">
-              <a href="https://info340a-wi19.github.io/project-thebriando/#" class="card-link">Playlister</a>
+              <a
+                href="https://write-every-morning.firebaseapp.com"
+                class="card-link"
+                >Write Every Morning</a
+              >
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              Spotify music recommendations and analysis
+              A productivity application for keeping track of tasks in a calendar
             </h6>
             <ul class="card-text">
               <li>
-                Created website to get Spotify music recommendations based on
-                user’s selected artist, genre, or playlist
+                Coded website using React JS
               </li>
               <li>
-                Fetched data from Spotify Web API to generate artist and track
-                recommendations based on the user’s input
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="card col-xl-6 col-lg-12 col-md-12 col-sm-12">
-          <div class="card-body">
-            <h5 class="card-title"><a href="http://www.optimumappliance.net/" class="card-link">Optimum Appliance</a></h5>
-            <h6 class="card-subtitle mb-2 text-muted">
-              A website for a client's appliance repair business
-            </h6>
-            <ul class="card-text">
-              <li>
-                Designed, wrote copy, and coded website for a local appliance
-                repair shop and grew site to over 15k pageviews
-              </li>
-              <li>
-                Integrated appointments system and contact page for customer
-                inquiries
+                Implemented Firebase's user authentication and realtime database
+                to keep track of data for each user
               </li>
             </ul>
           </div>
         </div>
       </div>
-    </div>
 
-    <h2>Creative Projects</h2>
-    <div class="container row mt-3 mb-3">
-      <div class="card-deck mb-3">
-        <div class="card col-xl-6 col-lg-12 col-md-12 col-sm-12">
+      <h2>Creative Projects</h2>
+      <div class="container row mt-3 mb-3">
+        <div class="card-deck mb-3">
+          <div class="card col-xl-6 col-lg-12 col-md-12 col-sm-12">
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="http://unknown-target.com" class="card-link"
+                  >Unknown Target</a
+                >
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                Streetwear-based clothing brand
+              </h6>
+              <ul class="card-text">
+                <li>
+                  Created original graphic designs for personal clothing brand
+                </li>
+                <li>
+                  Handled online orders, product shipment, and customer support
+                  to earn over $2,000 in sales
+                </li>
+                <li>
+                  Created website and managed products, used Google Analytics to
+                  examine site traffic
+                </li>
+                <li>
+                  Promoted products on social media outlets such as Instagram,
+                  Reddit, and fashion forums
+                </li>
+                <li>
+                  Directed and edited lookbook videos for each collection using
+                  Sony Vegas
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card col-xl-6 col-lg-12 col-md-12 col-sm-12">
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="http://briandobeats.com" class="card-link"
+                  >Brian Do Beats</a
+                >
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted">
+                Personal website to showcase and sell my music
+              </h6>
+              <ul class="card-text">
+                <li>
+                  Built website and implemented payments system, generating over
+                  $3,000 in music sales
+                </li>
+                <li>
+                  Deployed site website onto scalable cloud hosting platform
+                  Google App Engine
+                </li>
+                <li>
+                  Established YouTube channel and grew channel to over 500k
+                  views and 1,500 subscribers
+                </li>
+                <li>
+                  Produced, mixed, and mastered over 100 original hip-hop
+                  instrumental tracks
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <h2>Data Analytics Work</h2>
+        <div class="card mb-5 col-sm-12 col-md-12 col-lg-12 col-xl-12">
           <div class="card-body">
-            <h5 class="card-title"><a href="http://unknown-target.com" class="card-link">Unknown Target</a>
+            <h5 class="card-title">
+              <a
+                href="https://thebriando.shinyapps.io/INFO-final-project/"
+                class="card-link"
+                >UWPD Crime Data</a
+              >
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              Streetwear-based clothing brand
+              Interactive R Shiny app to visualize UW crime data
             </h6>
             <ul class="card-text">
               <li>
-                Created original graphic designs for personal clothing brand
+                Worked with student team to create a Shiny web app to visualize
+                different crime statistics around the UW campus
               </li>
               <li>
-                Handled online orders, product shipment, and customer support
-                to earn over $2,000 in sales
-              </li>
-              <li>
-                Created website and managed products, used Google Analytics to
-                examine site traffic
-              </li>
-              <li>
-                Promoted products on social media outlets such as Instagram,
-                Reddit, and fashion forums
-              </li>
-              <li>
-                Directed and edited lookbook videos for each collection using
-                Sony Vegas
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="card col-xl-6 col-lg-12 col-md-12 col-sm-12">
-          <div class="card-body">
-            <h5 class="card-title"><a href="http://briandobeats.com" class="card-link">Brian Do Beats</a></h5>
-            <h6 class="card-subtitle mb-2 text-muted">
-              Personal website to showcase and sell my music
-            </h6>
-            <ul class="card-text">
-              <li>
-                Built website and implemented payments system, generating over
-                $3,000 in music sales
-              </li>
-              <li>
-                Deployed site website onto scalable cloud hosting platform
-                Google App Engine
-              </li>
-              <li>
-                Established YouTube channel and grew channel to over 500k
-                views and 1,500 subscribers
-              </li>
-              <li>
-                Produced, mixed, and mastered over 100 original hip-hop
-                instrumental tracks
+                Wrote code to create reactive plots to display data pulled from
+                online crime datasets and various APIs
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <h2>Data Analytics Work</h2>
-      <div class="card mb-5 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-        <div class="card-body">
-          <h5 class="card-title"><a href="https://thebriando.shinyapps.io/INFO-final-project/" class="card-link">UWPD
-              Crime Data</a></h5>
-          <h6 class="card-subtitle mb-2 text-muted">
-            Interactive R Shiny app to visualize UW crime data
-          </h6>
-          <ul class="card-text">
-            <li>
-              Worked with student team to create a Shiny web app to visualize
-              different crime statistics around the UW campus
-            </li>
-            <li>
-              Wrote code to create reactive plots to display data pulled from
-              online crime datasets and various APIs
-            </li>
-          </ul>
-        </div>
+    </div>
+    <footer class="page-footer font-small blue">
+      <div class="footer-copyright text-center py-3">
+        © 2019 Copyright: Brian Do
       </div>
-    </div>
-  </div>
-  <footer class="page-footer font-small blue">
-    <div class="footer-copyright text-center py-3">
-      © 2019 Copyright: Brian Do
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
