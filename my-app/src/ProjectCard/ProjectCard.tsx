@@ -16,22 +16,20 @@ export const ProjectCard = ({
   projectHeadline
 }: ProjectModel) => {
   return (
-    <Card>
+    <Card className="card">
       <CardActionArea href={projectLink} target="_blank">
         <CardMedia
-            component="img"
-            alt={projectMedia.title}
-            height="300"
-            image={projectMedia.image}
-            title={projectMedia.title}
-          />
+          component="img"
+          alt={projectMedia.title}
+          height="300"
+          image={projectMedia.image}
+          title={projectMedia.title}
+        />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             {projectName}
           </Typography>
-          <Typography color="textSecondary">
-            {projectHeadline}
-          </Typography>
+          <Typography color="textSecondary">{projectHeadline}</Typography>
           <Typography variant="body2" color="textSecondary" component="p">
             <ProjectDescription
               description={projectDescription}
