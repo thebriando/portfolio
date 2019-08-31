@@ -1,4 +1,4 @@
-import { ProjectModel } from "./project.data.model";
+import { ProjectModel } from "../models/project.model";
 import UTImage from "../images/unknown-target.png";
 import BDBImage from "../images/briandobeats.png";
 

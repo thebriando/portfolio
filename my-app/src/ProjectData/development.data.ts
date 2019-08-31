@@ -1,4 +1,4 @@
-import { ProjectModel } from "./project.data.model";
+import { ProjectModel } from "../models/project.model";
 import BobaStopImage from "../images/bobastop.png";
 import WEMImage from "../images/writeeverymorning.png";
 import PlaylisterImage from "../images/playlister.jpg";

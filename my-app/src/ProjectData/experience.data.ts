@@ -1,4 +1,4 @@
-import { ProjectModel } from "./project.data.model";
+import { ProjectModel } from "../models/project.model";
 import PalletImage from "../images/pallet.jpg";
 import SlalomImage from "../images/slalom-build.jpg";
 
