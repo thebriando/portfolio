@@ -7,6 +7,10 @@ export const AnalysisData: ProjectModel[] = [
       "Worked with student team to create a Shiny web app to visualize different crime statistics around the UW campus",
       "Wrote code to create reactive plots to display data pulled from online crime datasets and various APIs"
     ],
-    projectLink: "https://thebriando.shinyapps.io/INFO-final-project/"
+    projectLink: "https://thebriando.shinyapps.io/INFO-final-project/",
+    projectMedia: {
+        title: "UWPD Crime Data",
+        image: "https://i.imgur.com/O9b1b5q.png"
+      }
   }
 ];

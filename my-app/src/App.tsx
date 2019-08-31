@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import { ProjectCard } from "./ProjectCard/ProjectCard";
 import "./App.css";
 import { Grid } from "@material-ui/core";
@@ -22,6 +21,7 @@ const App: React.FC = () => {
                   projectName={project.projectName}
                   projectDescription={project.projectDescription}
                   projectLink={project.projectLink}
+                  projectMedia={project.projectMedia}
                 />
               </Grid>
             );
@@ -36,6 +36,7 @@ const App: React.FC = () => {
                   projectName={project.projectName}
                   projectDescription={project.projectDescription}
                   projectLink={project.projectLink}
+                  projectMedia={project.projectMedia}
                 />
               </Grid>
             );
@@ -50,6 +51,7 @@ const App: React.FC = () => {
                   projectName={project.projectName}
                   projectDescription={project.projectDescription}
                   projectLink={project.projectLink}
+                  projectMedia={project.projectMedia}
                 />
               </Grid>
             );

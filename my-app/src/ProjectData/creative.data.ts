@@ -8,7 +8,11 @@ export const CreativeData: ProjectModel[] = [
       "Coded an admin portal in React JS that pulls data from orders to calculate total net profit and generate data visualizations in D3",
       "Promoted products on social media outlets such as Instagram, Reddit, and fashion forums"
     ],
-    projectLink: "https://www.unknown-target.com/"
+    projectLink: "https://www.unknown-target.com/",
+    projectMedia: {
+      title: "Unknown Target",
+      image: "https://i.imgur.com/uDi5akr.jpg"
+    }
   },
   {
     projectName: "Brian Do Beats",
@@ -17,6 +21,10 @@ export const CreativeData: ProjectModel[] = [
       "Established YouTube channel and grew channel to over 500k views and 1,500 subscribers",
       "Produced, mixed, and mastered over 100 original hip-hop instrumental tracks"
     ],
-    projectLink: "http://briandobeats.com/"
+    projectLink: "http://briandobeats.com/",
+    projectMedia: {
+      title: "Brian Do Beats",
+      image: "https://i.imgur.com/giKJFho.png"
+    }
   }
 ];

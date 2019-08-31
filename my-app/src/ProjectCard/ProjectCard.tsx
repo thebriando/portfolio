@@ -13,18 +13,19 @@ import "../App.css";
 export const ProjectCard = ({
   projectName,
   projectDescription,
-  projectLink
+  projectLink,
+  projectMedia
 }: ProjectModel) => {
   return (
     <Card>
       <CardActionArea>
-        {/* <CardMedia
+        <CardMedia
             component="img"
-            alt="Contemplative Reptile"
-            height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
-            title="Contemplative Reptile"
-          /> */}
+            alt={projectMedia.title}
+            height="300"
+            image={projectMedia.image}
+            title={projectMedia.title}
+          />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             {projectName}
