@@ -12,13 +12,13 @@ const App: React.FC = () => {
       <Box height="300px">
         <div className="header">
           <div className="header-body">
-            <Typography variant="h1">Brian's Portfolio</Typography>
-            <Typography>Software Engineer</Typography>
+            <Typography variant="h2">Brian's Portfolio</Typography>
+            <Typography>Software Engineer | Seattle, WA</Typography>
           </div>
         </div>
       </Box>
       <Container>
-        <h2>Experience</h2>
+        <h2>Work Experience</h2>
         <Grid container spacing={4} alignItems="stretch" justify="center">
           {ExperienceData.map(project => {
             return (
