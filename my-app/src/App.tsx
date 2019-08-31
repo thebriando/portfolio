@@ -13,10 +13,10 @@ const App: React.FC = () => {
         <h1>Brian's Portfolio</h1>
         <h2>Software Engineer</h2>
         <h3>Development Work</h3>
-        <Grid container spacing={4}>
+        <Grid container spacing={4} alignItems="stretch" justify="center">
           {DevelopmentData.map(project => {
             return (
-              <Grid item sm={12} md={6}>
+              <Grid item sm={12} md={4}>
                 <ProjectCard
                   projectName={project.projectName}
                   projectDescription={project.projectDescription}
