@@ -17,7 +17,7 @@ export const ProjectCard = ({
 }: ProjectModel) => {
   return (
     <Card className="card">
-      <CardActionArea href={projectLink} target="_blank">
+      <CardActionArea href={projectLink} target="_blank" className="card">
         <CardMedia
           component="img"
           alt={projectMedia.title}
