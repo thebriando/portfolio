@@ -1,4 +1,6 @@
 import { ProjectModel } from "./project.data.model";
+import UTImage from "../images/unknown-target.png";
+import BDBImage from "../images/briandobeats.png";
 
 export const CreativeData: ProjectModel[] = [
   {
@@ -11,7 +13,7 @@ export const CreativeData: ProjectModel[] = [
     projectLink: "https://www.unknown-target.com/",
     projectMedia: {
       title: "Unknown Target",
-      image: "https://i.imgur.com/uDi5akr.jpg"
+      image: UTImage
     },
     projectHeadline: "Streetwear-based clothing brand"
   },
@@ -25,7 +27,7 @@ export const CreativeData: ProjectModel[] = [
     projectLink: "http://briandobeats.com/",
     projectMedia: {
       title: "Brian Do Beats",
-      image: "https://i.imgur.com/giKJFho.png"
+      image: BDBImage
     },
     projectHeadline: "Personal website to showcase and sell my music"
   }

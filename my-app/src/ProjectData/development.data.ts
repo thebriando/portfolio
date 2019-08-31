@@ -1,8 +1,13 @@
 import { ProjectModel } from "./project.data.model";
+import BobaStopImage from "../images/bobastop.png";
+import WEMImage from "../images/writeeverymorning.png";
+import PlaylisterImage from "../images/playlister.jpg";
+import OAImage from "../images/optimumappliance.jpg";
+import UWPDCDImage from "../images/uwpdcrimedata.jpg";
 
 export const DevelopmentData: ProjectModel[] = [
   {
-    projectName: "BobaStop",
+    projectName: "Boba Stop",
     projectDescription: [
       "Developed an Android app in Kotlin to display nearby bubble tea shops using the Yelp API",
       "Implemented a randomizer feature to generate random bubble tea flavors by tapping a button or shaking the device"
@@ -10,7 +15,7 @@ export const DevelopmentData: ProjectModel[] = [
     projectLink: "https://github.com/etruong/info-448-final",
     projectMedia: {
       title: "BobaStop",
-      image: "https://i.imgur.com/YBxcIXq.png"
+      image: BobaStopImage
     },
     projectHeadline: "Android app for finding the hottest new boba shops"
   },
@@ -23,7 +28,7 @@ export const DevelopmentData: ProjectModel[] = [
     projectLink: "https://write-every-morning.firebaseapp.com",
     projectMedia: {
       title: "Write Every Morning",
-      image: "https://i.imgur.com/j6htJnW.png"
+      image: WEMImage
     },
     projectHeadline: "React application for setting and keeping track of daily goals"
   },
@@ -36,7 +41,7 @@ export const DevelopmentData: ProjectModel[] = [
     projectLink: "https://info340a-wi19.github.io/project-thebriando/",
     projectMedia: {
       title: "Playlister",
-      image: "https://i.imgur.com/AB2k2Ow.png"
+      image: PlaylisterImage
     },
     projectHeadline: "Spotify music recommendations and analysis"
   },
@@ -49,7 +54,7 @@ export const DevelopmentData: ProjectModel[] = [
     projectLink: "http://www.optimumappliance.net/",
     projectMedia: {
       title: "Optimum Appliance",
-      image: "https://i.imgur.com/LLpzXgg.jpg"
+      image: OAImage
     },
     projectHeadline: "Client project for an appliance repair business"
   },
@@ -62,7 +67,7 @@ export const DevelopmentData: ProjectModel[] = [
     projectLink: "https://thebriando.shinyapps.io/INFO-final-project/",
     projectMedia: {
       title: "UWPD Crime Data",
-      image: "https://i.imgur.com/O9b1b5q.png"
+      image: UWPDCDImage
     },
     projectHeadline: "Interactive R Shiny app to visualize UW crime data"
   }

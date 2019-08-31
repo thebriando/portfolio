@@ -4,6 +4,7 @@ import "./App.css";
 import { Grid, Typography, Container, Box } from "@material-ui/core";
 import { DevelopmentData } from "./ProjectData/development.data";
 import { CreativeData } from "./ProjectData/creative.data";
+import { ExperienceData } from "./ProjectData/experience.data";
 
 const App: React.FC = () => {
   return (
@@ -17,7 +18,23 @@ const App: React.FC = () => {
         </div>
       </Box>
       <Container>
-        <h3>Development Work</h3>
+        <h2>Experience</h2>
+        <Grid container spacing={4} alignItems="stretch" justify="center">
+          {ExperienceData.map(project => {
+            return (
+              <Grid item sm={12} md={6}>
+                <ProjectCard
+                  projectName={project.projectName}
+                  projectDescription={project.projectDescription}
+                  projectLink={project.projectLink}
+                  projectMedia={project.projectMedia}
+                  projectHeadline={project.projectHeadline}
+                />
+              </Grid>
+            );
+          })}
+        </Grid>
+        <h2>Development Work</h2>
         <Grid container spacing={4} alignItems="stretch" justify="center">
           {DevelopmentData.map(project => {
             return (
@@ -33,7 +50,7 @@ const App: React.FC = () => {
             );
           })}
         </Grid>
-        <h3>Creative Projects</h3>
+        <h2>Creative Projects</h2>
         <Grid container spacing={4}>
           {CreativeData.map(project => {
             return (
