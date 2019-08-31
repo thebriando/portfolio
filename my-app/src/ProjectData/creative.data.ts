@@ -12,7 +12,8 @@ export const CreativeData: ProjectModel[] = [
     projectMedia: {
       title: "Unknown Target",
       image: "https://i.imgur.com/uDi5akr.jpg"
-    }
+    },
+    projectHeadline: "Streetwear-based clothing brand"
   },
   {
     projectName: "Brian Do Beats",
@@ -25,6 +26,7 @@ export const CreativeData: ProjectModel[] = [
     projectMedia: {
       title: "Brian Do Beats",
       image: "https://i.imgur.com/giKJFho.png"
-    }
+    },
+    projectHeadline: "Personal website to showcase and sell my music"
   }
 ];

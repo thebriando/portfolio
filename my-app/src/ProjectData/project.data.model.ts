@@ -6,4 +6,5 @@ export type ProjectModel = {
     title: string;
     image: string;
   };
+  projectHeadline: string;
 };

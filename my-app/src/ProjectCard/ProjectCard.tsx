@@ -14,11 +14,12 @@ export const ProjectCard = ({
   projectName,
   projectDescription,
   projectLink,
-  projectMedia
+  projectMedia,
+  projectHeadline
 }: ProjectModel) => {
   return (
     <Card>
-      <CardActionArea href={projectLink}>
+      <CardActionArea href={projectLink} target="_blank">
         <CardMedia
             component="img"
             alt={projectMedia.title}
@@ -29,6 +30,9 @@ export const ProjectCard = ({
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             {projectName}
+          </Typography>
+          <Typography color="textSecondary">
+            {projectHeadline}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
             <ProjectDescription

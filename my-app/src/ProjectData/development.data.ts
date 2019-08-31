@@ -11,7 +11,8 @@ export const DevelopmentData: ProjectModel[] = [
     projectMedia: {
       title: "BobaStop",
       image: "https://i.imgur.com/YBxcIXq.png"
-    }
+    },
+    projectHeadline: "Android app for finding the hottest new boba shops"
   },
   {
     projectName: "Write Every Morning",
@@ -23,7 +24,8 @@ export const DevelopmentData: ProjectModel[] = [
     projectMedia: {
       title: "Write Every Morning",
       image: "https://i.imgur.com/j6htJnW.png"
-    }
+    },
+    projectHeadline: "React application for setting and keeping track of daily goals"
   },
   {
     projectName: "Playlister",
@@ -35,7 +37,8 @@ export const DevelopmentData: ProjectModel[] = [
     projectMedia: {
       title: "Playlister",
       image: "https://i.imgur.com/AB2k2Ow.png"
-    }
+    },
+    projectHeadline: "Spotify music recommendations and analysis"
   },
   {
     projectName: "Optimum Appliance",
@@ -47,7 +50,8 @@ export const DevelopmentData: ProjectModel[] = [
     projectMedia: {
       title: "Optimum Appliance",
       image: "https://i.imgur.com/LLpzXgg.jpg"
-    }
+    },
+    projectHeadline: "Client project for an appliance repair business"
   },
   {
     projectName: "UWPD Crime Data",
@@ -59,6 +63,7 @@ export const DevelopmentData: ProjectModel[] = [
     projectMedia: {
       title: "UWPD Crime Data",
       image: "https://i.imgur.com/O9b1b5q.png"
-    }
+    },
+    projectHeadline: "Interactive R Shiny app to visualize UW crime data"
   }
 ];
