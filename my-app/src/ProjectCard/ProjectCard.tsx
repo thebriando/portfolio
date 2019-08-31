@@ -18,7 +18,7 @@ export const ProjectCard = ({
 }: ProjectModel) => {
   return (
     <Card>
-      <CardActionArea>
+      <CardActionArea href={projectLink}>
         <CardMedia
             component="img"
             alt={projectMedia.title}
@@ -37,11 +37,6 @@ export const ProjectCard = ({
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary" href={projectLink}>
-          Learn More
-        </Button>
-      </CardActions>
     </Card>
   );
 };
