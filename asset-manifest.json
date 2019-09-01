@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ae08ebb9.chunk.css",
+    "main.js": "/portfolio/static/js/main.ba2ca146.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ba2ca146.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.0a34ec7b.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.0a34ec7b.js.map",
+    "static/js/2.8bcc659a.chunk.js": "/portfolio/static/js/2.8bcc659a.chunk.js",
+    "static/js/2.8bcc659a.chunk.js.map": "/portfolio/static/js/2.8bcc659a.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.263c984c60c80f4b5cfeaaf1a65b7028.js": "/portfolio/precache-manifest.263c984c60c80f4b5cfeaaf1a65b7028.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.ae08ebb9.chunk.css.map": "/portfolio/static/css/main.ae08ebb9.chunk.css.map",
+    "static/media/bobastop.png": "/portfolio/static/media/bobastop.7f1da2ec.png",
+    "static/media/briandobeats.png": "/portfolio/static/media/briandobeats.6638df57.png",
+    "static/media/optimumappliance.jpg": "/portfolio/static/media/optimumappliance.454c3c71.jpg",
+    "static/media/pallet.jpg": "/portfolio/static/media/pallet.48e91c36.jpg",
+    "static/media/playlister.jpg": "/portfolio/static/media/playlister.c02fa15a.jpg",
+    "static/media/slalom-build.jpg": "/portfolio/static/media/slalom-build.7d0033cb.jpg",
+    "static/media/unknown-target.png": "/portfolio/static/media/unknown-target.43957d0b.png",
+    "static/media/uwpdcrimedata.jpg": "/portfolio/static/media/uwpdcrimedata.38c5f05d.jpg",
+    "static/media/writeeverymorning.png": "/portfolio/static/media/writeeverymorning.b6bf2215.png"
+  }
+}
