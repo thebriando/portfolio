@@ -35,11 +35,11 @@ export const ProjectCard = ({
             {projectName}
           </Typography>
           <Typography color="textSecondary">{projectHeadline}</Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <div className="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary">
             <ProjectDescription
               description={projectDescription}
             ></ProjectDescription>
-          </Typography>
+          </div>
         </CardContent>
       </CardActionArea>
     </Card>

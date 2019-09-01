@@ -18,7 +18,7 @@ const App: React.FC = () => {
           <Grid container spacing={4} alignItems="stretch" justify="center">
             {ExperienceData.map(project => {
               return (
-                <Grid item sm={12} md={6}>
+                <Grid key={project.projectName} item sm={12} md={6}>
                   <ProjectCard
                     projectName={project.projectName}
                     projectDescription={project.projectDescription}
@@ -38,7 +38,7 @@ const App: React.FC = () => {
           <Grid container spacing={4} alignItems="stretch" justify="center">
             {DevelopmentData.map(project => {
               return (
-                <Grid item sm={12} md={4}>
+                <Grid key={project.projectName} item sm={12} md={4}>
                   <ProjectCard
                     projectName={project.projectName}
                     projectDescription={project.projectDescription}
@@ -58,7 +58,7 @@ const App: React.FC = () => {
           <Grid container spacing={4}>
             {CreativeData.map(project => {
               return (
-                <Grid item sm={12} md={6}>
+                <Grid key={project.projectName} item sm={12} md={6}>
                   <ProjectCard
                     projectName={project.projectName}
                     projectDescription={project.projectDescription}
