@@ -1,6 +1,6 @@
 import { ProjectModel } from "../models/project.model";
-import UTImage from "../images/unknown-target.png";
-import BDBImage from "../images/briandobeats.png";
+import UTImage from "../assets/images/unknown-target.png";
+import BDBImage from "../assets/images/briandobeats.png";
 
 export const CreativeData: ProjectModel[] = [
   {

@@ -1,6 +1,6 @@
 import { ProjectModel } from "../models/project.model";
-import PalletImage from "../images/pallet.jpg";
-import SlalomImage from "../images/slalom-build.jpg";
+import PalletImage from "../assets/images/pallet.jpg";
+import SlalomImage from "../assets/images/slalom-build.jpg";
 
 export const ExperienceData: ProjectModel[] = [
   {

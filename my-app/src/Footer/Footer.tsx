@@ -1,8 +1,8 @@
 import React from "react";
 import { Grid, Toolbar } from "@material-ui/core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
-import { faFileAlt, faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faStickyNote } from "@fortawesome/free-solid-svg-icons";
 
 export const Footer = () => {
   return (
@@ -14,7 +14,7 @@ export const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
         </Grid>
         <Grid item>
@@ -23,14 +23,13 @@ export const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faGithubSquare} />
+            <FontAwesomeIcon icon={faGithub} />
           </a>
         </Grid>
         <Grid item>
-          <FontAwesomeIcon icon={faFileAlt} />
-        </Grid>
-        <Grid item>
-          <FontAwesomeIcon icon={faEnvelopeSquare} />
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faStickyNote} />
+          </a>
         </Grid>
       </Grid>
     </Toolbar>

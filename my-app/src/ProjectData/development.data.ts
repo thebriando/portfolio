@@ -1,9 +1,9 @@
 import { ProjectModel } from "../models/project.model";
-import BobaStopImage from "../images/bobastop.png";
-import WEMImage from "../images/writeeverymorning.png";
-import PlaylisterImage from "../images/playlister.jpg";
-import OAImage from "../images/optimumappliance.jpg";
-import UWPDCDImage from "../images/uwpdcrimedata.jpg";
+import BobaStopImage from "../assets/images/bobastop.png";
+import WEMImage from "../assets/images/writeeverymorning.png";
+import PlaylisterImage from "../assets/images/playlister.jpg";
+import OAImage from "../assets/images/optimumappliance.jpg";
+import UWPDCDImage from "../assets/images/uwpdcrimedata.jpg";
 
 export const DevelopmentData: ProjectModel[] = [
   {

@@ -32,7 +32,6 @@ const App: React.FC = () => {
           </Grid>
         </Container>
       </div>
-      <hr></hr>
       <div className="segment development">
         <Container>
           <h2>Development Work</h2>
@@ -53,7 +52,6 @@ const App: React.FC = () => {
           </Grid>
         </Container>
       </div>
-      <hr></hr>
       <div className="segment creative">
         <Container>
           <h2>Creative Projects</h2>
