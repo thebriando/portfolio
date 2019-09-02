@@ -24,5 +24,6 @@ steps:
   #     q
   #   displayName: "npm test"
   - script: |
+      git config --global credential.helper wincred
       npm run deploy
     displayName: "npm deploy"
