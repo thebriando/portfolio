@@ -20,6 +20,7 @@ steps:
       npm run build
     displayName: "npm install and build"
   - script: |
-      git config --global credential.helper wincred
+      git config --global user.name "thebriando"
+      git config --global user.email "thebriando@gmail.com"
       npm run deploy
     displayName: "npm deploy"
