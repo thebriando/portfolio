@@ -19,10 +19,6 @@ steps:
       npm install
       npm run build
     displayName: "npm install and build"
-  # - script: |
-  #     npm test a
-  #     q
-  #   displayName: "npm test"
   - script: |
       git config --global credential.helper wincred
       npm run deploy
