@@ -6,7 +6,7 @@ export const Header = () => {
     <Box height="300px">
       <div className="header">
         <div className="header-body">
-          <Typography variant="h2">Brian's Portfolio</Typography>
+          <Typography variant="h2">Brian Do</Typography>
           <Typography>Software Engineer | Seattle, WA</Typography>
         </div>
       </div>

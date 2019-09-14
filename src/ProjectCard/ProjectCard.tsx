@@ -7,6 +7,7 @@ import Typography from "@material-ui/core/Typography";
 import { ProjectModel } from "../models/project.model";
 import { ProjectDescription } from "./ProjectDescription";
 import "../App.css";
+import "./ProjectCard.css";
 
 export const ProjectCard = ({
   projectName,
@@ -31,7 +32,7 @@ export const ProjectCard = ({
           title={projectMedia.title}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography gutterBottom variant="h5" component="h2" className="project-name">
             {projectName}
           </Typography>
           <Typography color="textSecondary">{projectHeadline}</Typography>
