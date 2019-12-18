@@ -4,8 +4,23 @@ import WEMImage from "../assets/images/writeeverymorning.png";
 import PlaylisterImage from "../assets/images/playlister.jpg";
 import OAImage from "../assets/images/optimumappliance.jpg";
 import UWPDCDImage from "../assets/images/uwpdcrimedata.jpg";
+import UWMarketplaceImage from "../assets/images/uwmarketplace.png";
 
 export const DevelopmentData: ProjectModel[] = [
+  {
+    projectName: "UW Marketplace",
+    projectDescription: [
+      "Developed front end components in React, used websockets to notify users when new listings are posted in realtime",
+      "Implemented a back end architecture in Go using a Redis store for user sessions, a MySQL database for storing user profiles, a MongoDB database with a Node.js microservice for storing user listing data, and a RabbitMQ instance for sending messages through websockets",
+      "Wrote scripts to Dockerize the web client and API server to deploy into AWS EC2 instances"
+    ],
+    projectLink: "https://github.com/mollyyli/UW-MarketPlace",
+    projectMedia: {
+      title: "UW Marketplace",
+      image: UWMarketplaceImage
+    },
+    projectHeadline: "A marketplace for UW students to buy and sell their belongings with other students"
+  },
   {
     projectName: "Boba Stop",
     projectDescription: [
