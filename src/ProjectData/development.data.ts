@@ -5,6 +5,7 @@ import PlaylisterImage from "../assets/images/playlister.jpg";
 import OAImage from "../assets/images/optimumappliance.jpg";
 import UWPDCDImage from "../assets/images/uwpdcrimedata.jpg";
 import UWMarketplaceImage from "../assets/images/uwmarketplace.png";
+import CourseVisorImage from "../assets/images/coursevisor.png"
 
 export const DevelopmentData: ProjectModel[] = [
   {
@@ -20,6 +21,20 @@ export const DevelopmentData: ProjectModel[] = [
       image: UWMarketplaceImage
     },
     projectHeadline: "A marketplace for UW students to buy and sell their belongings with other students"
+  },
+  {
+    projectName: "CourseVisor",
+    projectDescription: [
+      "Implemented and conceptualized idea for a website for students to review their UW courses",
+      "Designed and created front end components using React and Material UI",
+      "Web scraped UW course catalog to populate courses database in Firebase"
+    ],
+    projectLink: "https://github.com/CourseVisor/CourseVisor",
+    projectMedia: {
+      title: "UW Marketplace",
+      image: CourseVisorImage
+    },
+    projectHeadline: "A website for students to share their experiences in different courses"
   },
   {
     projectName: "Boba Stop",
