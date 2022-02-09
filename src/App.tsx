@@ -13,7 +13,7 @@ export class App extends Component {
   componentDidMount = () => {
     const trackingId = process.env.REACT_APP_TRACKING_ID as string;
     ReactGA.initialize(trackingId);
-    ReactGA.pageview(window.location.pathname + window.location.search);  
+    ReactGA.pageview(window.location.pathname + window.location.search);
   };
   render() {
     return (
@@ -45,7 +45,12 @@ export class App extends Component {
             <Grid container spacing={4} alignItems="stretch" justify="center">
               {DevelopmentData.map(project => {
                 return (
-                  <Grid key={project.projectName} item sm={12} md={project.projectName === "UW Marketplace" ? 8 : 4}>
+                  <Grid
+                    key={project.projectName}
+                    item
+                    sm={12}
+                    md={project.projectName === "UW Marketplace" ? 8 : 4}
+                  >
                     <ProjectCard
                       projectName={project.projectName}
                       projectDescription={project.projectDescription}

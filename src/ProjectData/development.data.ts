@@ -5,7 +5,7 @@ import PlaylisterImage from "../assets/images/playlister.jpg";
 import OAImage from "../assets/images/optimumappliance.jpg";
 import UWPDCDImage from "../assets/images/uwpdcrimedata.jpg";
 import UWMarketplaceImage from "../assets/images/uwmarketplace.png";
-import CourseVisorImage from "../assets/images/coursevisor.png"
+import CourseVisorImage from "../assets/images/coursevisor.png";
 
 export const DevelopmentData: ProjectModel[] = [
   {
@@ -20,7 +20,8 @@ export const DevelopmentData: ProjectModel[] = [
       title: "UW Marketplace",
       image: UWMarketplaceImage
     },
-    projectHeadline: "A marketplace for UW students to buy and sell their belongings with other students"
+    projectHeadline:
+      "A marketplace for UW students to buy and sell their belongings with other students"
   },
   {
     projectName: "CourseVisor",
@@ -34,7 +35,8 @@ export const DevelopmentData: ProjectModel[] = [
       title: "UW Marketplace",
       image: CourseVisorImage
     },
-    projectHeadline: "A website for students to share their experiences in different courses"
+    projectHeadline:
+      "A website for students to share their experiences in different courses"
   },
   {
     projectName: "Boba Stop",
@@ -60,7 +62,8 @@ export const DevelopmentData: ProjectModel[] = [
       title: "Write Every Morning",
       image: WEMImage
     },
-    projectHeadline: "React application for setting and keeping track of daily goals"
+    projectHeadline:
+      "React application for setting and keeping track of daily goals"
   },
   {
     projectName: "Playlister",

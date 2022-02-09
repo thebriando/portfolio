@@ -27,7 +27,11 @@ export const Footer = () => {
           </a>
         </Grid>
         <Grid item>
-          <a href="/portfolio/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a
+            href="/portfolio/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faStickyNote} />
           </a>
         </Grid>

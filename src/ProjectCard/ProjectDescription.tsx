@@ -9,7 +9,9 @@ export const ProjectDescription = ({
   return (
     <ul>
       {description.map(obj => (
-        <li key={obj} className="description">{obj}</li>
+        <li key={obj} className="description">
+          {obj}
+        </li>
       ))}
     </ul>
   );

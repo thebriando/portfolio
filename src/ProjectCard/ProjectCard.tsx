@@ -32,7 +32,12 @@ export const ProjectCard = ({
           title={projectMedia.title}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2" className="project-name">
+          <Typography
+            gutterBottom
+            variant="h5"
+            component="h2"
+            className="project-name"
+          >
             {projectName}
           </Typography>
           <Typography color="textSecondary">{projectHeadline}</Typography>
