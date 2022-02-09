@@ -49,7 +49,7 @@ export class App extends Component {
                     key={project.projectName}
                     item
                     sm={12}
-                    md={project.projectName === "UW Marketplace" ? 8 : 4}
+                    md={project.projectName === "UW Marketplace" || project.projectName === "Varmada" ? 6 : 4}
                   >
                     <ProjectCard
                       projectName={project.projectName}

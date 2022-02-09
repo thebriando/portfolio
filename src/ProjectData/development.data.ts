@@ -6,8 +6,23 @@ import OAImage from '../assets/images/optimumappliance.jpg';
 import UWPDCDImage from '../assets/images/uwpdcrimedata.jpg';
 import UWMarketplaceImage from '../assets/images/uwmarketplace.png';
 import CourseVisorImage from '../assets/images/coursevisor.png';
+import VarmadaImage from '../assets/images/varmada.png';
 
 export const DevelopmentData: ProjectModel[] = [
+  {
+    projectName: 'Varmada',
+    projectDescription: [
+      'Implemented user authorization, database storage, and API using AWS Amplify',
+      'Designed wireframe concepts in Figma and developed the app in React Native',
+    ],
+    projectLink: 'https://ischool.uw.edu/capstone/projects/2020/varmada',
+    projectMedia: {
+      title: 'Varmada',
+      image: VarmadaImage,
+    },
+    projectHeadline:
+      'A one stop shop mobile app to help online shoppers manage all of their returns',
+  },
   {
     projectName: 'UW Marketplace',
     projectDescription: [
